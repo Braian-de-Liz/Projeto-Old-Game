@@ -1,0 +1,9 @@
+*{
+    margin: 0px;
+}
+
+#navbar{
+    text-align: center;
+    background-color: blanchedalmond;
+    padding: 20px 30px;
+}
