@@ -108,11 +108,17 @@ h3 {
     width: 300px;
     background-color: rgba(0, 0, 0, 0.6);
     border-radius: 10px;
+    transition: transform 0.7s ease;
 }
 
 .games h4{
     padding: 10px;
     text-align: center;
+}
+
+.games:hover {
+    transform: scale(1.10);
+    animation-timing-function: cubic-bezier(1, 0, 0, 1);
 }
 
 .games img {
@@ -140,7 +146,11 @@ h3 {
     width: 100%;
     cursor: pointer;
     border-radius: 100px;
-    transition: background 0.6s, transform 0.3s;
+    transition:  0.3s;
     font-size: 16px;
     font-weight: 600;
+}
+
+.dowlond:hover{
+    transform: scale(1.01);
 }
