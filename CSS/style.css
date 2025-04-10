@@ -4,6 +4,27 @@
 
 #navbar{
     text-align: center;
-    background-color: blanchedalmond;
+    background-color: #333;
     padding: 20px 30px;
+    color: aliceblue;
 }
+
+.flex {
+    display: flex;
+    text-align: center;
+    gap: 40px;
+    justify-content: center;
+}
+
+#BARRA{
+    padding: 12px 20px;
+}
+
+.flex a{
+    color: crimson;
+}
+
+#PSP{
+    
+}
+
