@@ -24,7 +24,32 @@
     color: crimson;
 }
 
+h3{
+    padding: 15px;
+    text-align: center;
+}
+
 #PSP{
-    
+    padding: 100px 30px;
+    margin: 32px;
+    display: flex;
+    background-color: #333;
+}
+
+.games{
+    padding: 15px;
+    color: darkgray;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    height: 500px;        
+    width: 300px;
+}
+
+.games img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 30px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    background: rgba(245, 245, 245, 0.705)
 }
 
