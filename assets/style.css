@@ -124,7 +124,10 @@ h3 {
 }
 
 .TS{
+    margin-bottom: 20px;
+    color: white;
     text-align: center;
+    font-size: 24px;
     margin-bottom: 20px;
     
 }
