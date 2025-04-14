@@ -293,3 +293,41 @@ feBlend
     text-align: center;
     padding: 50px 30px;
 }
+
+/* Estilos para a seção de escolha de consoles */
+#console-selection {
+    padding: 100px 30px;
+    margin: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(51, 51, 51, 0.7);
+    border-radius: 10px;
+}
+
+.console-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.console-button {
+    background: #000;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+    border-radius: 100px;
+    transition: transform 0.3s, background-color 0.3s;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+    min-width: 200px;
+}
+
+.console-button:hover {
+    transform: scale(1.1);
+    background-color: rgb(220, 20, 60);
+}
