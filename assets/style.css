@@ -100,6 +100,18 @@ h3 {
     border-radius: 10px;
 }
 
+#PS2{
+    position: relative;
+    padding: 100px 30px;
+    margin: 32px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    background-color: rgba(51, 51, 51, 0.7);
+    border-radius: 10px;
+}
+
 .games {
     padding: 20px 20px;
     color: white;
@@ -155,4 +167,10 @@ h3 {
 .dowlond:hover{
     transform: scale(1.1);
     background-color: rgb(220, 20, 60);
+}
+
+#fot{
+    background-color:  rgba(41, 41, 41, 0.8);
+    text-align: center;
+    padding: 50px 30px;
 }
