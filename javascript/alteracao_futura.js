@@ -4,11 +4,13 @@ function botaobaixar() {
 
     continua = true
 
-    if (continua = true) {
-        while(continua = false)
+    while (continua = true) {
+        alert("VOCÊ ESTA COMETENDO PIRATARIA")
+        if (confirm("VAI FICAR DE VARZEA?")) {
 
-            alert("PIRATARIA É CRIME")
+            window.close();
+            break;
+        }
     }
-
 
 }   
