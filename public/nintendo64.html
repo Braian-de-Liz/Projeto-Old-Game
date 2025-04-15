@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../assets/imagens/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="../assets/style.css">
+    <title>OLD-GAMES</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar"> 
+            <div id="logo">
+                <img src="../assets/imagens/logonav.png" alt="Logo OLD-GAMES">
+            </div>
+            <div>
+                <h1 id="titulo">Bem vindos ao OLD-GAMES</h1>
+            </div>
+            <div class="BARRA">
+                <ul class="flex">
+                    <li><a href="../old_games.html">Voltar</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="NIN64">
+            <div>
+                <h3 class="TS">NINTENDO 64</h3>
+            </div>
+            <div class="conteiner_jogos">
+                <div class="games">
+                    <img src="../assets/imagens/capas-64/zelda-ocarina.jpg" alt="">
+                    <h4>Zelda Ocarina <br>of Time</h4>
+                    <button class="dowlond" type="submit" onclick="botaobaixar()">BAIXAR</button>
+                </div>
+                <div class="games">
+                    <img src="../assets/imagens/capas-64/mario64.jpg" alt="">
+                    <h4>Mario 64</h4>
+                    <br>
+                    <button class="dowlond" type="submit" onclick="botaobaixar()">BAIXAR</button>
+                </div>
+                <div class="games">
+                    <img src="../assets/imagens/capas-64/007.jpg" alt="">
+                    <h4>007 GoldenEye</h4>
+                    <br>
+                    <button class="dowlond" type="submit" onclick="botaobaixar()">BAIXAR</button>
+                </div>
+                <div class="games">
+                    <img src="../assets/imagens/capas-64/majoras mask.jfif" alt="">
+                    <h4>Zelda Majora's Mask</h4>
+                    <br>
+                    <button class="dowlond" type="submit" onclick="botaobaixar()">BAIXAR</button>
+                </div>
+                <div class="games">
+                    <img src="../assets/imagens/capas-64/Banjo zazooe.webp" alt="">
+                    <h4>Banjo Kazooie</h4>
+                    <br>
+                    <button class="dowlond" type="submit" onclick="botaobaixar()">BAIXAR</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="fot">
+        <p>&copy;2025. OLD-GAMES. direitos nem tão reservados assim</p>
+    </footer>
+
+    <div class="music-player">
+        <audio id="bg-music" loop>
+            <source src="../assets/musica/musiquinha.mp3" type="audio/mpeg">
+        </audio>
+        <button id="music-toggle" class="music-btn">🔊</button>
+        <input type="range" id="volume-control" min="0" max="1" step="0.1" value="0.7">
+    </div>
+
+    <script src="../javascript/alteracao_futura.js"></script>
+</body>
+</html>
