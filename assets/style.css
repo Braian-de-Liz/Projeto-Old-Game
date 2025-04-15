@@ -16,7 +16,7 @@ body {
 
 .navbar {
     text-align: center;
-    background-color: rgba(15, 15, 15, 0.8);
+    background-color: rgba(51, 51, 51, 0.8);
     padding: 20px 30px;
     color: aliceblue;
     position: relative;
@@ -307,9 +307,14 @@ h3 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgba(17, 17, 17, 0.7);
-
+    background-color: rgba(51, 51, 51, 0.8);
+    transform: rotateY('20');
     border-radius: 10px;
+}
+
+#console-selection:hover{
+    background-color: rgba(51, 51, 51, 0.8);
+    transition: all;
 }
 
 .console-container {
