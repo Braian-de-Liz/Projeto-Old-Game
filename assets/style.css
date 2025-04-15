@@ -22,6 +22,11 @@ body {
     position: relative;
 }
 
+.navbar img{
+    max-width: 500px;
+    height: 260px;
+}
+
 .flex {
     display: flex;
     text-align: center;
