@@ -93,7 +93,7 @@ h3 {
     border-radius: 10px;
 }
 
-#NIN64{
+.NIN64{
     position: relative;
     padding: 100px 30px;
     margin: 32px;
@@ -105,7 +105,7 @@ h3 {
     border-radius: 10px;
 }
 
-#PS2{
+.PS2{
     position: relative;
     padding: 100px 30px;
     margin: 32px;
